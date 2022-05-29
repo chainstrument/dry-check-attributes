@@ -1,0 +1,16 @@
+{
+    "name": "louki/dry-check-attributes",
+    "description": "Implementation of a service for checking a dry : product examples",
+    "autoload": {
+        "psr-4": {
+            "App\\DryCheckAttributes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chainstrument",
+            "email": "minitutoriel@gmail.com"
+        }
+    ],
+    "require": {}
+}
