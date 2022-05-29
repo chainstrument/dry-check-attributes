@@ -1,5 +1,7 @@
 <?php 
 
+namespace App\DryCheckAttributes;
+
 class ProductService
 {
 
@@ -11,12 +13,12 @@ class ProductService
 
     public function checkProduct(Product $product)
     {
-        if($this->checkAttributes()){
+        if($this->checkAttributes($product)){
             return true;
         }
     }
 
-    public function checkAttributes()
+    public function checkAttributes($product)
     {
         foreach($this->productAttributes as $attribute )
         {
